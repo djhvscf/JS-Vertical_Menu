@@ -1,5 +1,9 @@
 /* File Created: 11 November, 2013 */
 /*By: Dennis Hernández Vargas*/
+function pageLoad() {
+			debugger;
+				$('.menu').vertical_menu();
+			};
 (function ($) {
     $.fn.vertical_menu = function () {
         // Se ejecuta un each donde esto porque pueden existir muchos selectores con la clase 'menu'
@@ -9,6 +13,7 @@
             // Se encuentra los elementos a y se les asigna el evento click
             menu.find('ul li div div > a').bind('click', function (event) 
             {
+			debugger;
                 // Se toma el elemento donde se hizo el click
                 var elementClicked = $(event.currentTarget);
                 // Los elementos ul que tienen asignada la clase active serán los que estan abiertos
