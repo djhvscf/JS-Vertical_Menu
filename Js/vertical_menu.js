@@ -1,16 +1,5 @@
-﻿/* File Created: 11 November, 2013 */
+/* File Created: 11 November, 2013 */
 /*By: Dennis Hernández Vargas*/
-function pageLoad() {
-    $('.menu').vertical_menu();
-
-    var textArea = document.getElementsByTagName('textarea');
-    for (var i = 0; i < textArea.length; i++) {
-        if (textArea[i].id != "CuerpoPagina_txtValueParameter") {
-            textArea[i].setAttribute("onpaste", "return false;");
-        }
-        textArea[i].setAttribute("onkeyDown", "checkTextAreaMaxLength(this,event);");
-    }
-};
 (function ($) {
     $.fn.vertical_menu = function () {
         // Se ejecuta un each donde esto porque pueden existir muchos selectores con la clase 'menu'
