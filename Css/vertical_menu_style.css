@@ -1,0 +1,68 @@
+/* File Created: November 11, 2013 */
+/*By: Dennis Hernández - djhvscf*/
+
+/**@Section: Vertical menu*/
+.menu{
+    padding:0;
+    list-style:none;
+    font-size:13px;
+    font-weight: bold;
+    text-transform: uppercase;            
+    background-color: #86B540;
+    border: 0px solid rgba(0,0,0,0.8);
+    float:left;
+}
+.menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    width:210px;
+}
+.menu ul li ul{
+    width:210px;
+}
+.menu ul li{
+    margin:0;
+    padding:0px;
+    background-color: #FFFFFF;
+}
+.menu ul li a{
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    background-color: #86B540;
+    text-decoration:none;
+    color:#FFF;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    filter: dropshadow(color=#000, offx=1, offy=0);
+    padding:10px;
+    padding-left:70px;  
+}
+.menu ul li ul a{
+    
+    /*margin-top:2px;
+    padding-left: 10px;*/
+    display:block;
+    text-decoration: none;
+    color:#20643B;
+    font-size:12px;
+    /*height:25px;*/
+    font-weight: lighter;
+    background: #B7DB9C;
+}
+.menu ul li a:hover{
+    background: #86B540  no-repeat center right;
+}
+.menu ul li ul a:hover{
+    background: none repeat 0 0 #B7DB9C;
+    color: #D48F22;
+    -moz-transition: color 0.4s ease-in-out;
+    -webkit-transition: color 0.4s ease-in-out;
+    -o-transition: color 0.4s ease-in-out;
+}
+ 
+.menu ul li ul{
+    display:none;
+}
+
+/**@Section: Vertical menu*/
