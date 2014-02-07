@@ -1,6 +1,9 @@
-/* File Created: November 11, 2013 */
-/*By: Dennis Hernández - djhvscf*/
-
+/* @version 1.0 verticalMenu
+ * @author Dennis Hernández - djhvscf
+ * @webSite: http://djhv92.wix.com/dennishernandez
+ * Vertical menu with jquery and css
+ */
+ 
 /**@Section: Vertical menu*/
 .menu{
     padding:0;
@@ -39,14 +42,10 @@
     padding-left:70px;  
 }
 .menu ul li ul a{
-    
-    /*margin-top:2px;
-    padding-left: 10px;*/
     display:block;
     text-decoration: none;
     color:#20643B;
     font-size:12px;
-    /*height:25px;*/
     font-weight: lighter;
     background: #B7DB9C;
 }
