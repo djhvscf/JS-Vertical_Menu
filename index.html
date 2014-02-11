@@ -2,11 +2,15 @@
 	<head>
 		<link href="Css/vertical_menu_style.css" rel="Stylesheet" type="text/css" />
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
 		<script src="Js/vertical_menu.js" type="text/javascript"></script>
 		
 		<script type="text/javascript">
 		$('document').ready(function(){
-            $('.menu').vertical_menu();
+            $('.menu').vertical_menu({
+				slideUp: "fast",
+				easing: "easeInQuad"
+			});
         });
 		</script>
 	</head>
