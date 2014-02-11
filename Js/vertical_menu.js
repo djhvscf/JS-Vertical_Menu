@@ -13,7 +13,6 @@
                 var elementClicked = $(event.currentTarget);
                 if (elementClicked.parent().find('ul.active').size() === 1) 
                 {
-				debugger;
                     elementClicked.parent().find('ul.active').slideUp('medium', function () 
                     {
                         elementClicked.parent().find('ul.active').removeClass('active');
