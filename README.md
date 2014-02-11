@@ -9,19 +9,50 @@ Author Homepage:      http://djhv92.wix.com/dennishernandez<br />
 How to use it?
 ==============
 
-Just add this in your html 
+Just add this in your html
 
 $('document').ready(function(){
 	$('.menu').vertical_menu();
 });
 
+This plugin has options and sets default values:
+
+* slideUp: "medium",
+* slideDown: "slow",
+* easingUp: "swing",
+* easingDown: "swing"
+
+You can customize your vertical menu like:
+
+$('document').ready(function(){
+	$('.menu').vertical_menu({
+		slideUp: "medium",
+		slideDown: "slow",
+		easingUp: "swing",
+		easingDown: "swing"
+	});
+});
+
+All the options are not required and you can put the easing name or number.
+For more information about: 
+
+* slideUp() : https://api.jquery.com/slideUp/
+* slideDown() : https://api.jquery.com/slideDown/
+* easing : http://api.jqueryui.com/easings/
+
+Dependencies
+=============
+This plugin has these dependencies:
+
+* jquery-1.10.2.js
+* jquery-ui.js (1.10.4)
 
 Repo Contents
 =============
 
 * index.html
 * vertical_menu.js
-* Css
+* vertical_menu_style.css
 * README
 
 MIT Open Source License
