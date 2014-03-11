@@ -5,8 +5,8 @@
  */
 
 (function ($) {
-    $.fn.vertical_menu = function (options) {
-		
+    'use strict'
+    $.fn.vertical_menu = function (options) {		
 		var settings = $.extend({
             slideUp: "medium",
             slideDown: "slow",
